@@ -1255,6 +1255,7 @@
 							dispName:     result.Title,
 							dataName:     result.InternalName,
 							dataType:     result.TypeAsString,
+							description:  result.Description,
 							isAppend:     ( result.AppendOnly || false ),
 							isNumPct:     ( result.SchemaXml.toLowerCase().indexOf('percentage="true"') > -1 ),
 							isReadOnly:   result.ReadOnlyField,
